@@ -1,0 +1,191 @@
+/* * > p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px; */
+    padding: 0;
+    border: 1px solid black;
+}
+
+.Description {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* background: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    background: #171616;
+    height: 742px;
+}
+
+.description-p{
+    /* font-size: 20px; */
+    font-size: 25px;
+    margin-top: 15px;
+    word-spacing: 2px;
+}
+
+.description-h1{
+    /* font-size: 50px; */
+    font-size: 60px;
+    word-spacing: 2px;
+}
+
+.descriptionContent{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.description-b{
+    color: white;
+    background: #32A84B;
+    border: none;
+    /* width: 90px;
+    height: 30px; */
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.Description, h1{
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.Photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    /* border: 1px solid red; */
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 1110px){
+    /* .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        border: 1px solid black;
+    }
+    
+    .Description {
+        display: flex;
+        align-items: center;
+        background: #171616;
+        height: 742px;
+    }
+    
+    .description-p{
+        font-size: 20px;
+        margin-top: 15px;
+        word-spacing: 1.5px;
+    }
+    
+    .description-h1{
+        font-size: 55px;
+        word-spacing: 1.5px;
+    }
+    
+    .descriptionContent{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .description-b{
+        color: white;
+        background: #32A84B;
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 15px;
+        margin-top: 20px;
+        outline: none;
+    }
+    
+    .Description, h1{
+        color: white;
+        font-family: 'Poiret One', cursive;
+    }
+    
+    .Photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: cornflowerblue;
+    }
+    
+    img{
+        height: 100%;
+        width: 100%;
+    } */
+    .contenedor{
+        display: block;
+    }
+    .Description{
+        justify-content: center;
+        height: 367px;
+    }
+    .Photo{
+        height: 367px;
+        background: #171616;
+    }
+    img{
+        object-fit: contain;
+        margin-bottom: 140px;
+    }
+    .descriptionContent{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width:539px){
+    .descriptionContent{
+        margin-top: 30px;
+    }
+    .description-b{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .Photo{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .description-p{
+        /* font-size: 20px; */
+        font-size: 20px;
+        margin-top: 15px;
+        word-spacing: 2px;
+    }
+    
+    .description-h1{
+        /* font-size: 50px; */
+        font-size: 55px;
+        word-spacing: 2px;
+    }
+    .Photo{
+        margin-top: -40px;
+    }
+}
