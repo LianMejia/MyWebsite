@@ -7,9 +7,14 @@
     display: block;
 } */
 
-* > p, li {
+.titulo-p {
     font-size: 20px;
+    margin-top: 0px;
 } 
+
+.nav, li{
+    font-size: 20px;
+}
 
 section{
     display: flex;

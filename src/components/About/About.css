@@ -1,0 +1,153 @@
+.sectionAbout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #171616;
+    border: 1px solid black;
+/*     margin-top: 20px; */
+    height: 742px;
+    padding: 0px;
+}
+
+.photo, .aboutMe{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.photo-a{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.Description-a, h2{
+    font-size: 35px;
+}
+
+.Description-a, p{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.Description-a{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:1110px){
+    .imgAbout{
+        margin-bottom: 0px;
+    }
+
+    .Description-a{
+        margin-left: 40px;
+        margin-right: 80px;
+        margin-top: 0px;
+    }
+
+    .photo-a{
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (max-width:930px){
+    .imgAbout{
+        margin-bottom: 0px;
+    }
+
+    .Description-a{
+        margin-left: 30px;
+        margin-right: 60px;
+        margin-top: 0px;
+    }
+
+    .photo-a{
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+
+    /* .Description-a{
+        margin-left: 30px;
+        margin-right: 60px;
+        margin-top: 0px;
+    }
+
+    .photo-a{
+        margin-left: 60px;
+        margin-right: 30px;
+    } */
+
+}
+
+@media screen and (max-width:780px){
+    .sectionAbout{
+        display: block;
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        height: 733px;
+    }
+
+    .Description-a{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
+    .photo-a{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .photo{
+        height: 270px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .imgAbout{
+        height: 270px;
+    }
+
+    /* .photo{
+        margin-top: 10px;
+    }
+    .aboutMe{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } */
+}
+
+@media screen and (max-width:480px){
+    .sectionAbout{
+        display: block;
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        height: 733px;
+    }
+
+    .Description-a{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
+    .photo-a{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .photo{
+        height: 290px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .imgAbout{
+        height: 290px;
+    }
+}

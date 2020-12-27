@@ -60,7 +60,7 @@
     font-family: 'Poiret One', cursive;
 }
 
-.Photo{
+.photoHome{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +140,7 @@ img{
         justify-content: center;
         height: 367px;
     }
-    .Photo{
+    .photoHome{
         height: 367px;
         background: #171616;
     }
@@ -166,7 +166,7 @@ img{
 }
 
 @media screen and (max-width:550px){
-    .Photo{
+    .photoHome{
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -185,7 +185,7 @@ img{
         font-size: 55px;
         word-spacing: 2px;
     }
-    .Photo{
+    .photoHome{
         margin-top: -40px;
     }
 }

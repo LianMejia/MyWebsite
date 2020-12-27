@@ -8,14 +8,13 @@ class Home extends React.Component{
                 <div className="Description">
                     <div className="descriptionContent">
                        <h1 className="description-h1">I Am Programmer</h1>
-                       <p className="description-p">{/* En el desarrollo 
-                       web con 2 años de experiencia autodidacta */}
+                       <p className="description-p">
                        Programador autodidacta con 2 años de experiencia 
-                       en desarrollo web y mobil.</p>
+                       en desarrollo web y mobile.</p>
                        <button className="description-b">About</button>
                     </div>
                 </div>
-                <div className="Photo">
+                <div className="photoHome">
                     <img src={imgHome} alt=""/>
                 </div>
             </section>
