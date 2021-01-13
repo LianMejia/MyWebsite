@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.c0db3cda.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.d6232646.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.d6232646.chunk.js.map",
+    "runtime-main.js": "/MyWebsite/static/js/runtime-main.2c9e7cfd.js",
+    "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.2c9e7cfd.js.map",
+    "static/js/2.f1d7a606.chunk.js": "/MyWebsite/static/js/2.f1d7a606.chunk.js",
+    "static/js/2.f1d7a606.chunk.js.map": "/MyWebsite/static/js/2.f1d7a606.chunk.js.map",
+    "index.html": "/MyWebsite/index.html",
+    "static/css/main.c0db3cda.chunk.css.map": "/MyWebsite/static/css/main.c0db3cda.chunk.css.map",
+    "static/js/2.f1d7a606.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.f1d7a606.chunk.js.LICENSE.txt",
+    "static/media/MDeveloper.7f8ec6de.png": "/MyWebsite/static/media/MDeveloper.7f8ec6de.png",
+    "static/media/frontend.968100dd.png": "/MyWebsite/static/media/frontend.968100dd.png",
+    "static/media/img-Home.c2526062.jpg": "/MyWebsite/static/media/img-Home.c2526062.jpg",
+    "static/media/img-about.bd2b34e4.jpg": "/MyWebsite/static/media/img-about.bd2b34e4.jpg",
+    "static/media/web-design.04d5c90c.png": "/MyWebsite/static/media/web-design.04d5c90c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c9e7cfd.js",
+    "static/js/2.f1d7a606.chunk.js",
+    "static/css/main.c0db3cda.chunk.css",
+    "static/js/main.d6232646.chunk.js"
+  ]
+}
